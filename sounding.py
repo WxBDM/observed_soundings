@@ -155,5 +155,3 @@ pot_temp.text(0.5, -0.28, '@WxBDM', horizontalalignment = 'center', verticalalig
         transform=pot_temp.transAxes, fontsize = 'large', color = '#6b6964', zorder = 10)
 write_text(skew, 0.002, 1, '{0} ({4}, {5}) Observed Sounding for {1}/{2}/{3}: %0.2dz'.format(station, str(month), str(day), str(year), wfos[station][0], wfos[station][1]) % zulu,
     'left', 'bottom', fontsize = 'x-large')
-
-plt.savefig('C:/Users/Brandon/Desktop/testing_skewt', dpi = 400, bbox_inches = 'tight')
